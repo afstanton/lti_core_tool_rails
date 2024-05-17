@@ -1,0 +1,12 @@
+6.1.2 - https://www.imsglobal.org/spec/lti/v1p3/cert/#valid-teacher-launches
+
+Test Name                                 Test Description
+Valid Instructor Launch                   Launch LTI 1.3 Message as Instructor
+Valid Instructor Launch with Roles        Launch Instructor with Multiple Role Values
+Valid Instructor Launch Short Role        Launch Instructor with Short Role Value
+Valid Instructor Launch Unknown Role      Launch Instructor with Unknown Role
+Valid Instructor Launch No Role           Launch Instructor With No Role
+Valid Instructor Launch Email Only        Launch Instructor Only Email
+Valid Instructor Launch Names Only        Launch Instructor Only Names
+Valid Instructor No PII                   Launch Instructor No PII
+Valid Instructor Email Without Context    Launch Instructor With Email No Context

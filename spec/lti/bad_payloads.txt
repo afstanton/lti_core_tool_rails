@@ -1,0 +1,15 @@
+6.1.1 - https://www.imsglobal.org/spec/lti/v1p3/cert/#known-bad-payloads
+
+Test Name                         Test Description
+No KID Sent in JWT header         The KID is missing from the header of the JWT (preventing the verification of the signing of the JWT)
+Incorrect KID in JWT header       The KID provided is incorrect (and signing verification is impossible)
+Wrong LTI Version                 The LTI version claim contains the wrong version
+No LTI Version                    The LTI version claim is missing
+Invalid LTI message               The provided JSON is NOT a 1.3 JWT launch
+Missing LTI Claims                The provided 1.3 JWT launch is missing one or more required claims
+Timestamps Incorrect              JWT iat and exp timestamp Values are Invalid
+messsage_type Claim Missing       The Required message_type Claim Not Present
+role Claim Missing                The Required role Claim Not Present
+deployment_id Claim Missing       The Required deployment_id Claim Not Present
+resource_link_id Claim Missing    The Required resource_link_id Claim Not Present
+user Claim Missing                The Required sub Claim Not Present
